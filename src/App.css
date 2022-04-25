@@ -27,3 +27,12 @@ button {
     display: inline-block;
     align-items: flex-end;
 }
+
+.btn {
+    background-color:  rgb(138, 185, 226);
+    border: none;
+    justify-content: center;
+    text-align: center;
+    padding: 15px 32px;
+    color: aliceblue;
+}
