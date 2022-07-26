@@ -1,4 +1,5 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const About = () => {
   return (
@@ -6,7 +7,7 @@ const About = () => {
       <div>
         <div className="card-body">
           <h3 className="card-title">About Me</h3>
-          <p className="card-text">
+          <p className="card-text" id="bio">
             Welcome to my portfolio! My Name is Paul Davis and I recently
             finished a full stack coding bootcamp at the University of Denver. I
             come from a background in real estate, but I was ready for a change

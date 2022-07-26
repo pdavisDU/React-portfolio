@@ -3,25 +3,30 @@ import { useState } from "react";
 import About from "./about";
 import Contact from "./contact";
 import Portfolio from "./portfolio";
+import Resume from "./resume";
+import "../Styles/navigation.css";
 
 const Navigation = ({
   setAboutCard,
   setPortfolio,
   setContact,
+  setResume,
   AboutCard,
   PortfolioCard,
   ContactCard,
+  ResumeCard,
 }) => {
   const [active, setActive] = useState("about");
   return (
     <header>
       <h1>Paul Davis</h1>
-      <nav>
+      <nav class="navbar navbar-expand-lg justify-content-center">
         <button
           onClick={() => {
             setAboutCard(true);
             setPortfolio(false);
             setContact(false);
+            setResume(false);
           }}
         >
           About
@@ -31,6 +36,7 @@ const Navigation = ({
             setAboutCard(false);
             setPortfolio(true);
             setContact(false);
+            setResume(false);
           }}
         >
           My Work
@@ -40,17 +46,21 @@ const Navigation = ({
             setAboutCard(false);
             setPortfolio(false);
             setContact(true);
+            setResume(false);
           }}
         >
           Contact Me
         </button>
-        <a
-          type="button"
-          className="btn"
-          href="https://docs.google.com/document/d/1dK3Qpm4ZurdK2sUm5899TKM_YXmmnCIvWGbpu_2XgSI/edit?usp=sharing"
+        <button
+          onClick={() => {
+            setAboutCard(false);
+            setPortfolio(false);
+            setContact(false);
+            setResume(true);
+          }}
         >
           My Resume
-        </a>
+        </button>
       </nav>
     </header>
   );
