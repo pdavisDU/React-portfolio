@@ -1,4 +1,10 @@
-body {
-    background-color: rgb(237, 237, 237);
+html, body {
+    background-color: rgba(237, 237, 237, 0.688);
+    overflow: auto
+}
+
+footer {
+    padding: 50px;
+    margin-top: 150px,
 }
 @import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap');
