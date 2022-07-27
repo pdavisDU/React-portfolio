@@ -16,3 +16,7 @@ h3 {
   align-items: center;
   margin-left: 33%;
 }
+
+img {
+  box-shadow: rgba(112, 110, 112, 0.442) 0px 10px 15px 2px;
+}

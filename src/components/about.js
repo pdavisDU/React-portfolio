@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../Styles/about.css";
-import "../Styles/portfolio.css";
+// import "../Styles/portfolio.css";
 import Me from "../images/PaulDavis_WebMedium.jpg";
 
 const About = () => {
