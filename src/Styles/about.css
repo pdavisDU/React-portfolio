@@ -1,0 +1,10 @@
+#profile {
+ 
+    min-height: 350px;
+    width: 350px;
+    max-height: 800px;
+    justify-content: center !important;
+    align-items: center !important;
+    border-radius: 75px !important;
+    box-shadow: rgba(115, 165, 132, 0.4) 5px 5px, rgba(104, 145, 131, 0.3) 10px 10px, rgba(85, 116, 91, 0.2) 15px 15px, rgba(68, 104, 82, 0.1) 20px 20px, rgba(47, 63, 55, 0.05) 25px 25px;
+}

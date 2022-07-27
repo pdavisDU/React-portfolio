@@ -1,38 +1,17 @@
-body {
-    background-color: rgb(159, 203, 228);
-}
-
-header {
-    color: aliceblue;
-    height: 12%;
-    width: 100%;
-    padding: 11px;
-}
+.App {
+    text-align: center;
+    background-color: rgba(237, 237, 237, 0.767);
+    color: black;
+  }
 
 .card {
     width: 100%;
 }
 
-img {
-    width: 50%;
-    padding: 10px;
-}
+/* button {
+    border-radius: 100%;
+} */
 
-button {
-    background-color: rgb(138, 185, 226);
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    display: inline-block;
-    align-items: flex-end;
-}
-
-.btn {
-    background-color:  rgb(138, 185, 226);
-    border: none;
-    justify-content: center;
-    text-align: center;
-    padding: 15px 32px;
-    color: aliceblue;
+label {
+    margin: 7px;
 }

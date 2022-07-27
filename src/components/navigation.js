@@ -19,7 +19,7 @@ const Navigation = ({
   const [active, setActive] = useState("about");
   return (
     <header>
-      <h1>Paul Davis</h1>
+      {/* <h1>Paul Davis</h1> */}
       <nav class="navbar navbar-expand-lg justify-content-center">
         <button
           onClick={() => {
