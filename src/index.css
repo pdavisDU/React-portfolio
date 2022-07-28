@@ -1,4 +1,5 @@
 html, body {
+    width: 100%;
     background-color: rgba(237, 237, 237, 0.688);
     overflow: auto
 }
