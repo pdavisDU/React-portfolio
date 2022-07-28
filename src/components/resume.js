@@ -8,7 +8,7 @@ const Resume = () => {
         <div className="col-sm-12 col-md-4 lowerBoxes">
           <h3>My Resume</h3>
           <a
-            href="https://docs.google.com/document/d/1dK3Qpm4ZurdK2sUm5899TKM_YXmmnCIvWGbpu_2XgSI/edit?usp=sharing"
+            href="https://docs.google.com/document/d/1NGW7l9exxu8J3bGlXckPRFhTf0BE76ghoF28PQPBZG4/edit?usp=sharing"
             target="_blank"
           >
             <img
