@@ -8,6 +8,7 @@ import Pet from "../images/pet-search.png";
 import Note from "../images/note.png";
 import Weather from "../images/weather.png";
 import Fetch from "../images/fetch.png";
+import Chopz from "../images/chopz";
 const Portfolio = () => {
   return (
     <div id="work" className="container">
@@ -127,6 +128,21 @@ const Portfolio = () => {
           </a>
           <br></br> This was my final project. Our team created an app for
           arranging playdates with pets and meeting others with similar pets!
+        </div>
+        <div className="col-sm-12 col-md-4 lowerBoxes">
+          <h3>Chopz Salon</h3>
+          <a href="https://chopz-website.herokuapp.com/" target="_blank">
+            <img src={Chopz} className="img-fluid" alt="chopz" />
+          </a>
+          <a
+            className="nav-item"
+            href="https://github.com/pdavisDU/Chopz-react-site"
+            target="_blank"
+          >
+            Github Repo
+          </a>
+          <br></br> This is a site that I redesigned for a local salon. Before
+          photos can be found on the github repo.
         </div>
       </div>
     </div>
