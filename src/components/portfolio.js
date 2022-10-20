@@ -8,7 +8,7 @@ import Pet from "../images/pet-search.png";
 import Note from "../images/note.png";
 import Weather from "../images/weather.png";
 import Fetch from "../images/fetch.png";
-import Chopz from "../images/chopz";
+import Chopz from "../images/chopz.png";
 const Portfolio = () => {
   return (
     <div id="work" className="container">
